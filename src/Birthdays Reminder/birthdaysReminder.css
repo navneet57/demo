@@ -1,0 +1,42 @@
+.section-birthdays {
+  width: 50vw;
+  max-width: 500px;
+  margin: 3rem auto;
+  background-color: #fcfcfc;
+  color: #232323;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .section-birthdays {
+    min-width: 100%;
+  }
+}
+.section-birthdays .items-birthdays {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  background-color: #eeeeee;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+}
+.item-birthdays {
+  display: flex;
+  margin: 0.5rem;
+  align-items: center;
+}
+
+.item-birthdays i {
+  font-size: 350%;
+  color: #28c528;
+}
+.item-birthdays p {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  background: #28c528;
+  color: #fff;
+}

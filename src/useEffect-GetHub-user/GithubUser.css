@@ -1,0 +1,36 @@
+h1 {
+  margin: 0 0 3rem;
+}
+ul {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px auto;
+}
+
+.item {
+  width: 250px;
+  height: 100px;
+  margin-top: 0.5rem;
+}
+
+.item img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.item p {
+  padding-top: 0.3rem;
+  margin: 0.5rem;
+  font-size: 150%;
+}
+
+.item p a {
+  font-size: 80%;
+  color: #878d92;
+}
+
+.item p a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.h1-home {
+  text-align: center;
+  padding: 2rem 1rem 0rem 1rem;
+  position: relative;
+  z-index: -1;
+}
+.ulLinks {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  height: fit-content !important;
+}
+ul li {
+  transition: all 0.3s linear;
+  list-style: none;
+}
+li a {
+  color: #000;
+}
+ul li a:hover {
+  transition: all 0.3s linear;
+  color: #6b6e70;
+}

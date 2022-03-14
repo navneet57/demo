@@ -1,0 +1,21 @@
+.item {
+  flex-wrap: wrap;
+  width: 94%;
+  max-width: 1000px;
+}
+.item li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s linear;
+  border-bottom: solid 2px #fff;
+}
+
+.link:hover,
+.link:focus {
+  color: crimson;
+  border-bottom: solid 2px #dc143cd8;
+}
